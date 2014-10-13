@@ -21,7 +21,7 @@ void main() {
     print(msg);
 
     char* msg2 = "Test\n\0";
-    for (int i = 0; i<10; i++) {
+    for (int i = 0; i<20; i++) {
         print(msg2);
     }
 }
